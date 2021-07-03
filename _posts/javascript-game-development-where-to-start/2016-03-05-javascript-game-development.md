@@ -2,6 +2,7 @@
 layout: post
 title: 'JavaScript Game Development — Where to Start?'
 date: 2016-03-05
+tags: [javascript]
 ---
 
 This is the question that I have asked myself this morning. The JavaScript ecosystem is huge. But today I decided to experiment with something new, how about making something simple and fun — oh I know a game.

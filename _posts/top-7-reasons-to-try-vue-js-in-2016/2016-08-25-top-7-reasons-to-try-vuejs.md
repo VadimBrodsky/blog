@@ -2,6 +2,7 @@
 layout: post
 title: Top 7 reasons to try Vue.js in 2016
 date: 2016-08-25
+tags: [vuejs, javascript]
 ---
 
 This past week I had the opportunity to work on my first project using [Evan You](https://twitter.com/youyuxi)’s awesome creation. [Vue.js](http://vuejs.org/), is a reactive component based [MVVM](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel) JavaScript library for modern web interfaces. Wait, what? In plain English Vue.js is a small library that makes it [painless to create interactive user interfaces](http://blog.evanyou.me/2015/10/25/vuejs-re-introduction/) without worrying about all of the manual DOM manipulation and event listening. In spirit React comes close to what Vue.js is trying to achieve, build component based web user-interfaces. Letting you create the components and the data-flow and taking care of all the data-binding and DOM updates, this is what Vue calles “Reactivity”.
@@ -34,21 +35,7 @@ Vue.js does not force you into complex setup to define your app’s architecture
 
 The way I learn new technology is usually by watching videos, reading a book on the subject and trying out some small projects. At first with Vue, I stated with Jeffrey Way’s screencasts on [Laracast](https://laracasts.com/series/learning-vue-step-by-step), which offer a great introduction to Vue. Then I dove staring into a project.
 
-<aside>
-  <Tweet
-    handle="VadimBrodsky"
-    link="https://twitter.com/VadimBrodsky/status/768802734996873216?ref_src=twsrc%5Etfw"
-    date="August 25, 2016"
-  >
-    Sometimes the best tactic to get something done is to read the docs{' '}
-    <a href="https://twitter.com/hashtag/awesomedocumentation?src=hash&amp;ref_src=twsrc%5Etfw">
-      #awesomedocumentation
-    </a>{' '}
-    <a href="https://twitter.com/hashtag/vuejs?src=hash&amp;ref_src=twsrc%5Etfw">
-      #vuejs
-    </a>
-  </Tweet>
-</aside>
+> Sometimes the best tactic to get something done is to read the docs [#awesomedocumentation](https://twitter.com/hashtag/awesomedocumentation?src=hash&amp;ref_src=twsrc%5Etfw) [#vuejs](https://twitter.com/hashtag/vuejs?src=hash&amp;ref_src=twsrc%5Etfw), tweet by [@vadimbrodsky](https://twitter.com/VadimBrodsky/status/768802734996873216?ref_src=twsrc%5Etfw)
 
 In the beginning a little lost and slow, but then looking at the [official Vue.js guide](http://vuejs.org/guide/) and documentation everything became very clear. Vue has very good documentation that makes it a breeze to understating how to use Vue.
 
