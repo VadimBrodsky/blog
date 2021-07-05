@@ -1,9 +1,9 @@
-title: Vadim Brodsky
+title: vb. - Vadim Brodsky, web developer
 description: >- # site description
     A passionate web developer based out of Waterloo, Canada
 lang: en-US
 timezone: America/Toronto
-image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
+image: assets/img/ogp.jpg
 repo: https://github.com/vadimbrodsky/blog
 mode: light # default theme "dark" | "light"
 
@@ -15,15 +15,15 @@ author:
   username: vadimbrodsky
   github: vadimbrodsky
   twitter: vadimbrodsky
-  facebook: facebook_username # facebook username
+  facebook: vadim.brodsky
   email: vadim@vadimbrodsky.com
-  avatar: /assets/img/avatar.jpg # change with your own avatar
+  avatar: /assets/img/avatar.jpg
 
 # URL settings
 url: "https://vadimbrodsky.com"
 baseurl:
 permalink: /:title/
-google_analytics: # leave it blank if not wish
+google_analytics: "UA-31685503-1"
 fb_appid:
 
 # Collection setting

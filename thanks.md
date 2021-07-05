@@ -1,5 +1,5 @@
 ---
-title: Acknowledgment
+title: Acknowledgments
 permalink: /thanks/
 layout: page
 excerpt:

@@ -2,10 +2,10 @@
 layout: post
 title: 'JavaScript Game Development — Where to Start?'
 date: 2016-03-05
-tags: [javascript]
+tags: [JavaScript, Web Development, Game Development]
 ---
 
-This is the question that I have asked myself this morning. The JavaScript ecosystem is huge. But today I decided to experiment with something new, how about making something simple and fun — oh I know a game.
+This is the question that I have asked myself this morning. The JavaScript ecosystem is huge. But today I decided to experiment with something new, how about making something simple and fun — _oh I know a game_.
 
 ![A slightly more advanced version of Pong](./pong.gif)
 
@@ -21,7 +21,7 @@ The biggest player in the indie game development scene is [Unity](https://unity3
 
 ![Use Reactive programming you must Yoda meme](./reactive-programming.jpg)
 
-Another option that I have considered is [Elm](http://elm-lang.org/), it’s an intriguing compile-to-javascript language that promises* 0 runtime exceptions*. Some of the example do feature games: [Mario](http://elm-lang.org/examples/mario),[Adventure (Zelda)](http://elm-lang.org/examples/adventure), [Pong ](http://elm-lang.org/examples/pong)and others.
+Another option that I have considered is [Elm](http://elm-lang.org/), it’s an intriguing compile-to-javascript language that promises* 0 runtime exceptions*. Some of the example do feature games: [Mario](http://elm-lang.org/examples/mario), [Adventure (Zelda)](http://elm-lang.org/examples/adventure), [Pong ](http://elm-lang.org/examples/pong)and others.
 
 In addition Tobias Hermann offers many praises for the [functional approach to game programming](https://github.com/Dobiasd/articles/blob/master/switching_from_imperative_to_functional_programming_with_games_in_Elm.md) in Elm. It’s also been that inspiration to things like [Redux](http://redux.js.org/). The Elm language is very interesting and I want to come back to it, but it looks like currently there is no set “Game Engine” or any other support library in Elm — everything is do-it-yourself.
 
@@ -30,7 +30,7 @@ In addition Tobias Hermann offers many praises for the [functional approach to g
 
 ![I have no idea what I'm doing must blame javascript dog at computer meme](./blame-javascript.jpg)
 
-_JavaScript the best language_
+_JavaScript the best* language_
 
 _Ok, ok so what about vanilla JavaScript you ask_. Unsurprisingly JavaScript has many libraries and game engines to choose from, [HTML5 Game Engines](http://html5gameengine.com/) and this [Github Wiki](https://github.com/bebraw/jswiki/wiki/Game-Engines) offer some choices. Did I mention choices, oh so many choices. After some research, primarily reading Reddit threads (yes, I know) and looking at the websites of the most popular frameworks (judging-a-frameworks-by-its-homepage™) I am considering these 3, no, 5 game frameworks:
 
