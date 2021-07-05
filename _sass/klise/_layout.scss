@@ -161,12 +161,12 @@
       }
     }
 
-    input[type="checkbox"]:not(:checked) ~ .trigger {
+    input[type='checkbox']:not(:checked) ~ .trigger {
       clear: both;
       visibility: hidden;
     }
 
-    input[type="checkbox"]:checked ~ .trigger {
+    input[type='checkbox']:checked ~ .trigger {
       position: fixed;
       animation: 0.2s ease-in forwards fadein;
       -webkit-animation: 0.2s ease-in forwards fadein;
@@ -340,18 +340,17 @@
   }
 }
 
-
 .search-article {
   position: relative;
   margin-bottom: 50px;
 
-  label[for="search-input"] {
+  label[for='search-input'] {
     position: relative;
     top: 10px;
     left: 11px;
   }
 
-  input[type="search"] {
+  input[type='search'] {
     top: 0;
     left: 0;
     border: 0;
