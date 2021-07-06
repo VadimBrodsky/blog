@@ -3,7 +3,6 @@ title: About
 permalink: /about/
 layout: page
 excerpt: About Vadim Brodsky
-comments: false
 ---
 
 I create things on the web; I design and I build. I am passionate about the enabling power of technology and the humane sensitivities of design.

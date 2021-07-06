@@ -3,7 +3,6 @@ title: Acknowledgments
 permalink: /thanks/
 layout: page
 excerpt:
-comments: false
 ---
 
 Everything we do is based on the work and prior art of other people, this site is no excpetion. I want to thank the people and the technologies that enabled me.
