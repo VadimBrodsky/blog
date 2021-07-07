@@ -7,7 +7,7 @@ tags: [JavaScript, Web Development, Game Development]
 
 This is the question that I have asked myself this morning. The JavaScript ecosystem is huge. But today I decided to experiment with something new, how about making something simple and fun — _oh I know a game_.
 
-![A slightly more advanced version of Pong](./pong.gif)
+![A slightly more advanced version of Pong](/assets/uploads/pong.gif)
 
 _A slightly more advanced version of Pong_
 
@@ -19,7 +19,7 @@ The biggest player in the indie game development scene is [Unity](https://unity3
 
 ### Elm?
 
-![Use Reactive programming you must Yoda meme](./reactive-programming.jpg)
+![Use Reactive programming you must Yoda meme](/assets/uploads/reactive-programming.jpg)
 
 Another option that I have considered is [Elm](http://elm-lang.org/), it’s an intriguing compile-to-javascript language that promises* 0 runtime exceptions*. Some of the example do feature games: [Mario](http://elm-lang.org/examples/mario), [Adventure (Zelda)](http://elm-lang.org/examples/adventure), [Pong ](http://elm-lang.org/examples/pong)and others.
 
@@ -28,7 +28,7 @@ In addition Tobias Hermann offers many praises for the [functional approach to g
 ### JavaScript?
 
 
-![I have no idea what I'm doing must blame javascript dog at computer meme](./blame-javascript.jpg)
+![I have no idea what I'm doing must blame javascript dog at computer meme](/assets/uploads/blame-javascript.jpg)
 
 _JavaScript the best* language_
 

@@ -40,7 +40,7 @@ kramdown:
 # Default front matter
 defaults:
   - scope:
-      path: ""
+      path: "assets/uploads"
     values:
       layout: post
 
@@ -82,4 +82,4 @@ exclude:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-postfiles
+  # - jekyll-postfiles

@@ -15,11 +15,11 @@ Approachability is not only on the surface of Vue.js, the design of the [API](ht
 
 ## #2 Component Based
 
-<img src="web-components-so-hot.png" alt="web components are so hot rightnow zoolander meme" />
+![web components are so hot rightnow zoolander meme](/assets/uploads/web-components-so-hot.png)
 
 At the core of Vue.js are components, small self-contained pieces of code that can be reused to build a large-scale application. I know, I know components are so hot right now. The way that [Vue’s components](http://vuejs.org/guide/overview.html#Component-System) are defined and used are modelled after the W3C Custom Elements spec, which is part of the new [Web Components Spec](https://www.w3.org/wiki/WebComponents/). This means that using Vue.js and it’s component will be similar to native browser functionality in the future. In reality you get to define your components as custom HTML tags that Vue renders and into full-featured components. I think it fits remarkably well with the HTML markup paradigm. Making it easy to reason about the position and composition of the components in your application.
 
-![example of a single file component in vue as seen from a code editor](./single-file-component-in-vue.png)
+![example of a single file component in vue as seen from a code editor](/assets/uploads/single-file-component-in-vue.png)
 
 A slightly more advanced feature but no less awesome feature of Vue.js components are [Single File Components](http://vuejs.org/guide/application.html#Single-File-Components), using tools like Vueify allow you to define the template, logic and styling of your component in a single file. No more context switching and jumping to different files to make a change to the style of your component. This feature reminds me of the work on the HTML Shadow DOM.
 
@@ -39,7 +39,7 @@ The way I learn new technology is usually by watching videos, reading a book on 
 
 In the beginning a little lost and slow, but then looking at the [official Vue.js guide](http://vuejs.org/guide/) and documentation everything became very clear. Vue has very good documentation that makes it a breeze to understating how to use Vue.
 
-![Vue Awesome list logo](./vue-awesome-list.png)
+![Vue Awesome list logo](/assets/uploads/vue-awesome-list.png)
 
 Another important aspect of Vue.js development are the error messages, if you use the non-minified source code of the Vue library you will get nice descriptive error messages in your console.
 
@@ -52,7 +52,7 @@ Tool fatigue is a real thing in the JavaScript ecosystem, but to be more product
 
 Some of the tools that caught my attention are [vue-cli](https://github.com/vuejs/vue-cli) for quick scaffolding, [vue-router](https://github.com/vuejs/vue-router), [vue-resource](https://github.com/vuejs/vue-resource) for making HTTP and Ajax requsts, [vue-validator](https://github.com/vuejs/vue-validator) for data validation, [vuex](https://github.com/vuejs/vuex) for flux-inspired architecture.
 
-![screenshot of vue.js devtools in Chrome](./vue-devtools.png)
+![screenshot of vue.js devtools in Chrome](/assets/uploads/vue-devtools.png)
 
 But the tool I am using the most in my day to day development with Vue is the [vue-devtools](https://github.com/vuejs/vue-devtools). A Chrome extension that allows to inspect and interact Vue components, and it’s also written in Vue.
 
@@ -64,7 +64,7 @@ In addition Vue plays nicely without other libraries, need to bring in jQuery an
 
 ## #7 Future Facing
 
-One of the biggest counterpoints I can see against Vue.js is the size of the team devoted to it. It does not have Facebook’s or Google’s coffers at it’s disposal to fund Evan’s time. And hey he is a guy, so the [bus factor](https://en.wikipedia.org/wiki/Bus_factor) does not work in Vue’s favour. But Evan is taking stability very seriously, the Vue.js [community is growing](http://blog.evanyou.me/2015/12/20/vuejs-2015-in-review/) and the [Patron Campaign](https://medium.com/the-vue-point/the-state-of-vue-1655e10a340a#.oukvd6nrt) is going strong.
+One of the biggest counterpoints I can see against Vue.js is the size of the team devoted to it. It does not have Facebook’s or Google’s coffers at it’s disposal to fund Evan’s time. And hey he is a guy, so the [bus factor](https://en.wikipedia.org/wiki/Bus_factor) does not work in Vue’s favour. But Evan is taking stability very seriously, the Vue.js [community is growing](http://blog.evanyou.me/2015/12/20/vuejs-2015-in-review/) and the [Patreon Campaign](https://medium.com/the-vue-point/the-state-of-vue-1655e10a340a#.oukvd6nrt) is going strong.
 
 There are many good things on the [horizon for Vue](https://medium.com/the-vue-point/announcing-vue-js-2-0-8af1bde7ab9#.7x1xc4vev), the new release Vue 2.0 is now in RC sate and it offers many performance improvement with an implementation of a Virtual DOM. This change ought to bring up to a 4X performance improvement for Vue.
 
