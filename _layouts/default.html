@@ -29,6 +29,18 @@ google_analytics: true
   <div class="wrapper {{ layout.wrapper_class }}">
     {{ content }}
     {% include footer.html %}
+
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
   </div>
 </body>
 </html>
