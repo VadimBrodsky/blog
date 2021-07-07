@@ -18,7 +18,7 @@
     <a href="/" class="logo menu-link active">vb.</a>
     <div class="trigger">
       <div class="trigger-container">
-        {%- assign url = page.url -%} {%- assign menus = site.data.menus -%} {%-
+        {%- assign url = page.url -%} {%- assign menus = site.data.menus.items -%} {%-
         if menus %} {%- for menu in menus -%} {%- if url == menu.url -%}
         <a class="menu-link active" href="{{ menu.url }}">{{ menu.title }}</a>
         {%- else -%} {%- if menu.external -%}
