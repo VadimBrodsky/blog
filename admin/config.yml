@@ -30,6 +30,15 @@ collections:
           - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Thanks'
+        name: 'thanks'
+        file: 'thanks.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+          - { label: 'Permalink', name: 'permalink', widget: 'string' }
+          - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'config'
     label: 'Config'
     editor:
