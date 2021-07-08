@@ -29,7 +29,12 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Permalink', name: 'permalink', widget: 'string' }
           - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
-          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'page',
+            }
           - { label: 'Body', name: 'body', widget: 'markdown' }
       - label: 'Thanks'
         name: 'thanks'
@@ -38,7 +43,12 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Permalink', name: 'permalink', widget: 'string' }
           - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
-          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'page',
+            }
           - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'config'
     label: 'Config'
@@ -55,4 +65,9 @@ collections:
             fields:
               - { label: Title, name: title, widget: string }
               - { label: Url, name: url, widget: string }
-              - { label: External, name: external, widget: boolean, default: false }
+              - {
+                  label: External,
+                  name: external,
+                  widget: boolean,
+                  default: false,
+                }
