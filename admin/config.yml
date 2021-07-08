@@ -25,7 +25,7 @@ collections:
         name: 'about'
         file: 'about.md'
         fields:
-          - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+          - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Permalink', name: 'permalink', widget: 'string' }
           - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
@@ -34,7 +34,7 @@ collections:
         name: 'thanks'
         file: 'thanks.md'
         fields:
-          - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+          - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Permalink', name: 'permalink', widget: 'string' }
           - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
