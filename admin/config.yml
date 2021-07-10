@@ -14,13 +14,19 @@ collections:
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Published', name: 'published', widget: 'boolean', default: false }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
+      - { label: 'Cover Image', name: 'cover_image', widget: 'image' }
+      - { label: 'Description', name: 'description', widget: 'text' }
+      - { label: 'Canonical URL', name: 'canonical_url', widget: 'string' }
+      - { label: 'Series', name: 'series', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'til'
     label: 'TIL'
     folder: '_til/'
     create: true
+    publish: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: false
