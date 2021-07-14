@@ -1,6 +1,7 @@
 ---
 layout: post
 title: JavaScript Game Development — Where to Start?
+published: true
 date: 2016-03-05
 tags:
   - JavaScript
