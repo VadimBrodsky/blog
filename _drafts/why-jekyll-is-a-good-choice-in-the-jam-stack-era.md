@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Why Jekyll is a good choice in the JAM Stack Era
-published: false
 date: 2021-07-14T10:16:31.342Z
 tags:
   - JAM
