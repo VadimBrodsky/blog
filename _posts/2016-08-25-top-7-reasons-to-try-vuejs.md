@@ -1,8 +1,13 @@
 ---
 layout: post
 title: Top 7 reasons to try Vue.js in 2016
+published: true
 date: 2016-08-25
-tags: [JavaScript, Vuejs, Web Development, Front End Development]
+tags:
+  - JavaScript
+  - Vuejs
+  - Web Development
+  - Front End Development
 ---
 
 This past week I had the opportunity to work on my first project using [Evan You](https://twitter.com/youyuxi)’s awesome creation. [Vue.js](http://vuejs.org/), is a reactive component based [MVVM](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel) JavaScript library for modern web interfaces. Wait, what? In plain English Vue.js is a small library that makes it [painless to create interactive user interfaces](http://blog.evanyou.me/2015/10/25/vuejs-re-introduction/) without worrying about all of the manual DOM manipulation and event listening. In spirit React comes close to what Vue.js is trying to achieve, build component based web user-interfaces. Letting you create the components and the data-flow and taking care of all the data-binding and DOM updates, this is what Vue calles “Reactivity”.
