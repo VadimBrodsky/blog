@@ -2,6 +2,7 @@ backend:
   name: git-gateway
   branch: master
 media_folder: 'assets/uploads'
+
 collections:
   - name: 'blog'
     label: 'Blog'
@@ -15,14 +16,15 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Published', name: 'published', widget: 'boolean', default: false }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Tags', name: 'tags', widget: 'list' }
-      - { label: 'Cover Image', name: 'cover_image', widget: 'image' }
-      - { label: 'Description', name: 'description', widget: 'text' }
-      - { label: 'Canonical URL', name: 'canonical_url', widget: 'string' }
-      - { label: 'Series', name: 'series', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'list', required: false }
+      - { label: 'Cover Image', name: 'cover_image', widget: 'image', required: false }
+      - { label: 'Description', name: 'description', widget: 'text', required: false }
+      - { label: 'Canonical URL', name: 'canonical_url', widget: 'string', required: false }
+      - { label: 'Series', name: 'series', widget: 'string', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'draft'
-    label: 'Draft'
+
+  - name: 'drafts'
+    label: 'Drafts'
     folder: '_drafts/'
     create: true
     slug: '{{slug}}'
@@ -33,12 +35,13 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Published', name: 'published', widget: 'boolean', default: false }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Tags', name: 'tags', widget: 'list' }
-      - { label: 'Cover Image', name: 'cover_image', widget: 'image' }
-      - { label: 'Description', name: 'description', widget: 'text' }
-      - { label: 'Canonical URL', name: 'canonical_url', widget: 'string' }
-      - { label: 'Series', name: 'series', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'list', required: false }
+      - { label: 'Cover Image', name: 'cover_image', widget: 'image', required: false }
+      - { label: 'Description', name: 'description', widget: 'text', required: false }
+      - { label: 'Canonical URL', name: 'canonical_url', widget: 'string', required: false }
+      - { label: 'Series', name: 'series', widget: 'string', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+
   - name: 'til'
     label: 'TIL'
     folder: '_til/'
@@ -52,6 +55,7 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+
   - name: 'pages'
     label: 'Pages'
     editor:
@@ -64,12 +68,7 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Permalink', name: 'permalink', widget: 'string' }
           - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
-          - {
-              label: 'Layout',
-              name: 'layout',
-              widget: 'hidden',
-              default: 'page',
-            }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
       - label: 'Thanks'
         name: 'thanks'
@@ -78,13 +77,9 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Permalink', name: 'permalink', widget: 'string' }
           - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
-          - {
-              label: 'Layout',
-              name: 'layout',
-              widget: 'hidden',
-              default: 'page',
-            }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
+
   - name: 'config'
     label: 'Config'
     editor:
@@ -100,9 +95,4 @@ collections:
             fields:
               - { label: Title, name: title, widget: string }
               - { label: Url, name: url, widget: string }
-              - {
-                  label: External,
-                  name: external,
-                  widget: boolean,
-                  default: false,
-                }
+              - { label: External, name: external, widget: boolean, default: false }
