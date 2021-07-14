@@ -33,7 +33,7 @@ collections:
     permalink: /:collection/:title
   til:
     output: true
-    permalink: /:collection/:year/:month/:title
+    permalink: /today-i-learned/:year/:month/:title
 
 # Markdown settings
 markdown: kramdown

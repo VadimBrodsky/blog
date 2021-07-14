@@ -1,0 +1,14 @@
+---
+title: Today I Learned
+permalink: /today-i-learned/
+layout: page
+excerpt: The daily little aha moments.
+---
+
+{%- for til in site.til -%}
+  <article class="post-item">
+    <h3 class="post-item-title">
+      <a href="{{ til.url }}">{{ til.title | escape }}</a>
+    </h3>
+  </article>
+{%- endfor -%}
