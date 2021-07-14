@@ -4,8 +4,8 @@ backend:
 media_folder: 'assets/uploads'
 
 collections:
-  - name: 'blog'
-    label: 'Blog'
+  - name: 'posts'
+    label: 'post'
     folder: '_posts/'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
@@ -14,7 +14,7 @@ collections:
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Published', name: 'published', widget: 'boolean', default: false }
+      - { label: 'Published', name: 'published', widget: 'boolean', default: true }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Tags', name: 'tags', widget: 'list', required: false }
       - { label: 'Cover Image', name: 'cover_image', widget: 'image', required: false }
@@ -24,7 +24,7 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
   - name: 'drafts'
-    label: 'Drafts'
+    label: 'Draft'
     folder: '_drafts/'
     create: true
     slug: '{{slug}}'
@@ -33,7 +33,6 @@ collections:
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Published', name: 'published', widget: 'boolean', default: false }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Tags', name: 'tags', widget: 'list', required: false }
       - { label: 'Cover Image', name: 'cover_image', widget: 'image', required: false }
