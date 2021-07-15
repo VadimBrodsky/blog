@@ -54,7 +54,7 @@
     &::after {
       background: $light;
       bottom: 1px;
-      content: " ";
+      content: ' ';
       height: 2px;
       position: absolute;
       right: -20px;
@@ -62,7 +62,7 @@
     }
   }
 
-  span[itemprop="author"] {
+  span[itemprop='author'] {
     border-bottom: 1px dotted $light;
   }
 }
@@ -90,8 +90,8 @@
   a {
     color: $text-link-blue;
     text-decoration: none;
-    &[target="_blank"]::after {
-      content: " \2197";
+    &[target='_blank']::after {
+      content: ' \2197';
       font-size: $small-font-size;
       line-height: 0;
       position: relative;
@@ -115,14 +115,14 @@
   }
 
   ul.task-list {
-    list-style: none; 
+    list-style: none;
     margin: 0;
 
     li::before {
-      content: "";
+      content: '';
     }
 
-    li input[type="checkbox"] {
+    li input[type='checkbox'] {
       margin-right: 10px;
     }
   }
@@ -155,7 +155,7 @@
       outline: none;
 
       &::before {
-        content: "#";
+        content: '#';
         position: absolute;
         right: -3px;
         width: 1em;
