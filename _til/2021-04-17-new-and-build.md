@@ -2,6 +2,7 @@
 layout: post
 title: ActiveRecord New and Build
 tags: rails active_record
+date: 2021-04-17T15:04:32.799Z
 ---
 
 In the past[^1] the difference between ActiveRecord `build` and  ActiveRecord `new` was that the former would create associations while latter didn't. This is no longer the case[^2] as:
