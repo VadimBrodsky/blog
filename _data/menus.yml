@@ -2,7 +2,7 @@ items:
   - title: home
     url: /
     external: false
-  - title: archive
+  - title: posts
     url: /archive/
     external: false
   - external: false
