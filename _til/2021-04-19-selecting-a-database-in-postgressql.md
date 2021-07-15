@@ -2,6 +2,7 @@
 layout: post
 title: Selecting a database in PostgresSQL
 tags: PostgresSQL
+date: 2021-04-19T15:04:06.093Z
 ---
 
 1. open psql `psql -U pg`
