@@ -6,7 +6,7 @@ items:
     url: /archive/
     external: false
   - external: false
-    title: TIL
+    title: til
     url: /today-i-learned/
   - title: about
     url: /about/
