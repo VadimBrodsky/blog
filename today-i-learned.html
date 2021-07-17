@@ -5,10 +5,13 @@ layout: page
 excerpt: The daily little aha moments.
 ---
 
-{%- for til in site.til -%}
+{%- for til in site.til reversed -%}
   <article class="post-item">
     <h3 class="post-item-title">
-      <a href="{{ til.url }}">{{ til.title | escape }}</a>
+      <a href="{{ til.url }}">
+        <small>{{ til.date | date: "%b %d" }}</small> &mdash;
+        {{ til.title | escape }}
+      </a>
     </h3>
   </article>
 {%- endfor -%}
