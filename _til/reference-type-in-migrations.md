@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reference Type in Migrations
+title: References Type in Migrations
 date: 2021-04-26 06:33 -0400
 tags: rails
 ---
