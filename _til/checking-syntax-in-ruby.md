@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Checking Syntax in Ruby
-tags: ruby cli
+tags:
+  - ruby
+  - cli
 date: 2021-04-24T14:08:55.992Z
 ---
 
