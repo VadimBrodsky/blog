@@ -1,7 +1,9 @@
 ---
 layout: post
 title: ActiveRecord New and Build
-tags: rails active_record
+tags:
+  - rails
+  - active_record
 date: 2021-04-17T15:04:32.799Z
 ---
 
