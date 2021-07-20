@@ -278,3 +278,11 @@
     margin: 0;
   }
 }
+
+span.til-tag{
+  font-size: $small-font-size - 2;
+  background-color: $dark-white;
+  padding: 0.3em 0.8em;
+  border-radius: 5px;
+  margin-left: 0.5em;
+}

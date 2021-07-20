@@ -12,6 +12,10 @@ excerpt: The daily little aha moments.
         <small>{{ til.date | date: "%b %d" }}</small> &mdash;
         {{ til.title | escape }}
       </a>
+
+    {%- for tag in til.tags -%}
+    <span class="til-tag">{{ tag }}</span>
+    {% endfor %}
     </h3>
   </article>
 {%- endfor -%}
