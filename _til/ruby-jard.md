@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Ruby Jard
+tags:
+  - ruby
+  - tool
 date: 2021-04-26 06:26 -0400
-tags: ruby tool
 ---
 
 Just Another Ruby Debugger
