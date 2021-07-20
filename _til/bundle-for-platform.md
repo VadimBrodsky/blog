@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Bundle for platform
+tags:
+  - rails
+  - bundler
 date: 2021-04-26 06:29 -0400
-tags: ruby bundler
 ---
 Add a new platform[^1] to the lockfile, re-resolving for the addition of that platform.
 
