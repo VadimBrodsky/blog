@@ -2,7 +2,7 @@
 layout: post
 title: Rack Mini Profiler
 date: 2021-04-27 06:43 -0400
-tags: rails, tools
+tags: rails tools
 ---
 Use query parameters[^1] to control the mini profiler in a new Rails 6.1 application:
 

@@ -2,7 +2,7 @@
 layout: post
 title: Sanitize Devise Parameters
 date: 2021-04-27 06:41 -0400
-tags: rails, devise
+tags: rails devise
 ---
 
 To use custom fields on the Devise User model[^1] these fields need to be allowed because of strong parameters.
