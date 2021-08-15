@@ -13,7 +13,7 @@ new RegExp("\d")    // > /d/
 new RegExp("\d\w")  // > /dw/ 
 ```
 
-There are a couple ways to avoid this, using a second backslash `//` or using the `String.raw` method[^2]:
+There are a couple ways[^3] to avoid this, using a second backslash `//` or using the `String.raw` method[^2]:
 
 ```javascript
 new RegExp("\\d\\w\\s")         // > /\d\w\s/
@@ -22,4 +22,5 @@ new RegExp(String.raw`\d\w\s`)  // > /\d\w\d/
 
 [^1]: [Escaping Special Characters in new RegExp - JavaScript.info](https://javascript.info/regexp-escaping#new-regexp)
 [^2]: [String.raw - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/raw)
+[^3]: [How can I use backslashes (\) in a string? - StackOverflow](https://stackoverflow.com/a/10042082)
 
