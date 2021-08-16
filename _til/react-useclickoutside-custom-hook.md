@@ -3,6 +3,8 @@ layout: post
 title: React useClickOutside custom Hook
 tags:
   - react
+  - javascript
+  - hooks
 date: 2021-08-16 16:29 -0400
 ---
 A useful custom hook to detect when a user clicked outside of an element, could be used to close a drop-down menu etc.
