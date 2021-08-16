@@ -41,6 +41,6 @@ export default function Box() {
     console.log("clicked outside of app");
   });
 
-  return <div ref={containerRef>hello</div>;
+  return <div ref={containerRef}>hello</div>;
 }
 ```
