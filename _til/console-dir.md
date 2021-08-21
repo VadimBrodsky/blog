@@ -14,5 +14,5 @@ console.dir(object);
 ```
 
 [^1]: [console.dir() - MDN
-]()https://developer.mozilla.org/en-US/docs/Web/API/console/dir
+](https://developer.mozilla.org/en-US/docs/Web/API/console/dir)
 
