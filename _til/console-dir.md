@@ -13,6 +13,5 @@ The `console.dir()`[^1] method is the way to see all the properties of a specifi
 console.dir(object);
 ```
 
-[^1]: [console.dir - MDN
-](https://developer.mozilla.org/en-US/docs/Web/API/console/dir)
+[^1]: [console.dir - MDN](https://developer.mozilla.org/en-US/docs/Web/API/console/dir)
 
