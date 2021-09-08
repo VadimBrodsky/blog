@@ -16,7 +16,7 @@ Git has a pretty useful implementation of Grep that is recursive by default and 
 - `-v` same as `--invert-match` selects non-matching lines
 - `-h` hides the filename for each match
 - `-l` same shows only the file names of files that contain the matches
-- `-O` same as `--open-files-in-pager[=<pager>] opens the matching files in the pager, pager can be configured in `core.pager`
+- `-O` same as `--open-files-in-pager[=<pager>]` opens the matching files in the pager, pager can be configured in `core.pager`
 - `-n` same as `--line-number` prefix the line number to matching lines
 - `--break` print empty lines between matches from different files
 - `--heading` show the filename above the matches instead of the start of each line
