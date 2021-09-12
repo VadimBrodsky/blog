@@ -23,6 +23,7 @@ Git has a pretty useful implementation of Grep that is recursive by default and 
 - `-<num>` show <num> leading and trailing lines for a match
 - `-A <num>` show <num> trailing lines per match
 - `-B <num>` show <num> leading lines per match
+- `-C <num>` show <num> of context lines before and after the match 
 - `--` signals the end of options, the rest of the parameters are <pathspec> limiters
 
 
